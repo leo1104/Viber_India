@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 1;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -36,7 +36,12 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+.car{
+	margin-left:1em;
+}
+.hotel{
+	margin-right:2em;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -126,10 +131,15 @@ input, select, textarea {
 		-webkit-text-stroke: 0.25px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		text-transform: uppercase;
 		line-height: 1.75em;
+	}
+	h1{
+		font-weight: 400;
+		text-transform: uppercase;
+		line-height: 0.75em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
