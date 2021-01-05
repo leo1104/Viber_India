@@ -2379,13 +2379,18 @@ input, select, textarea {
 			}
 
 			header p {
-				margin: 0.25em 0 0 0;
+				margin: 0.25em 0 1em 0;
 				padding: 0 0 0.5em 0;
 			}
-			.hotel{
-				margin-bottom: 1em;
-			}
-
+	.hotel{
+		margin-right: 0;
+		margin-top: 1em;
+		margin-bottom: 0.5em;
+	}
+	.car{
+		margin-left: 0;
+		margin-top: 0.5em;
+	}
 		/* Box */
 
 			.box {
